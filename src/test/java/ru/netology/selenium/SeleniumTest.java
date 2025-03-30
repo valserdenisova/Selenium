@@ -48,6 +48,7 @@ public class SeleniumTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void shouldCardFormWithDash() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Кузнецов-Петров Иван");
